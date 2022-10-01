@@ -31,7 +31,7 @@ const Main = () => {
             </div>
         </form>
         <p className='text-bold text-cyan-600 text-xl text-center md:text-3xl p-8'>{reply.message}</p>
-        <p className='text-bold text-cyan-600 italic p-8'>Created by: <a className='underline text-cyan-100' target="_blank" href="https://github.com/Rabbi-Morgan?tab=repositories" rel="noreferrer">Omobolaji Anuoluwapo</a></p>
+        <p className='text-bold text-cyan-600 italic p-8 text-center text-sm sm:text-base'>Created by: <a className='underline text-cyan-100' target="_blank" href="https://github.com/Rabbi-Morgan?tab=repositories" rel="noreferrer">Omobolaji Anuoluwapo</a></p>
     </div>
   )
 }
