@@ -24,14 +24,14 @@ const Main = () => {
         <form onSubmit={messageHandler} className='w-full text-xl md:text-2xl'>
             <div className='my-4'>
             <label className='block mb-4'>Your age:</label>
-            <input required onChange={ageHandler} value={reply.age} className='py-4 text-black text-center w-full' type="number"/>
+            <input autoFocus required onChange={ageHandler} value={reply.age} className='py-4 text-black text-center w-full' type="number"/>
             </div>
             <div>
                 <button className='w-full py-4 bg-gradient-to-r from-cyan-500 to-blue-500' type="submit">Submit</button>
             </div>
         </form>
         <p className='text-bold text-cyan-600 text-xl text-center md:text-3xl p-8'>{reply.message}</p>
-        <p className='text-bold text-cyan-600 italic p-8 text-center text-sm sm:text-base'>Created by: <a className='underline text-cyan-100' target="_blank" href="https://github.com/Rabbi-Morgan?tab=repositories" rel="noreferrer">Omobolaji Anuoluwapo</a></p>
+        <p className='text-bold text-cyan-600 italic p-8 text-center text-sm md:text-base'>Created by: <a className='underline text-cyan-100' target="_blank" href="https://github.com/Rabbi-Morgan?tab=repositories" rel="noreferrer">Morgan</a></p>
     </div>
   )
 }
